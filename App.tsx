@@ -3,8 +3,8 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar, useColorScheme } from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import HomeScreen from './screens/HomeScreen';
-import AddGlicemiaScreen from './screens/AddGlicemiaScreen';
+import HomeScreen from './src/screens/HomeScreen';
+import AddGlicemiaScreen from './src/screens/AddGlicemiaScreen';
 
 type HomeDrawerParamList = {
   Home: undefined;

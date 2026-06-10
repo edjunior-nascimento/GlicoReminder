@@ -3,7 +3,7 @@ import CardGlicemia from '../../components/CardGlicemia';
 import { Ionicons } from '@expo/vector-icons';
 import { useCallback, useState } from 'react';
 import { collection, getDocs, orderBy, query } from 'firebase/firestore/lite';
-import { db } from '../../firebase/config';
+import { db } from '../../../firebase/config';
 import { useFocusEffect } from '@react-navigation/native';
 
 type HomeScreenProps = {
@@ -84,11 +84,11 @@ export default function HomeScreen({ navigation }: HomeScreenProps) {
           }}
           onPress={() => navigation.navigate('AddGlicemia')}
         >
-          <Ionicons name="add" size={36} color="white" />
+          <Ionicons name="add" size={24} color="white" />
           <Text
             style={{
               color: 'white',
-              fontSize: 24,
+              fontSize: 18,
               fontWeight: 'bold',
             }}
           >
