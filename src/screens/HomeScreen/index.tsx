@@ -11,6 +11,7 @@ type HomeScreenProps = {
 };
 
 type GlicemiaType = {
+  id: string;
   glicemia: number;
   data: Date;
 };
@@ -21,7 +22,9 @@ export default function HomeScreen({ navigation }: HomeScreenProps) {
   
   const [loading, setLoading] = useState(false);
 
-
+const handleDeleted = (id: string) => {
+  setListaGlicemia(prev => prev.filter(item => item.id !== id));
+};
   useFocusEffect(
     useCallback(() => {
       setLoading(true);
@@ -49,6 +52,7 @@ export default function HomeScreen({ navigation }: HomeScreenProps) {
       querySnapshot.forEach((doc) => {
 
         lista.push({
+          id: doc.id,
           glicemia: doc.data().glicemia,
           data: doc.data().data.toDate(),
         });
@@ -104,8 +108,8 @@ export default function HomeScreen({ navigation }: HomeScreenProps) {
             )}
 
         {listaGlicemia.length > 0 && (
-          listaGlicemia.map((item, index) => (
-            <CardGlicemia key={index} glicemia={item.glicemia} data={item.data} />
+          listaGlicemia.map((item) => (
+            <CardGlicemia key={item.id} id={item.id} glicemia={item.glicemia} data={item.data} onDelete={handleDeleted} />
           ))
         )}
       </View>
