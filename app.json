@@ -1,4 +1,9 @@
 {
-  "name": "GlicoReminder",
-  "displayName": "GlicoReminder"
+  "expo": {
+    "name": "GlicoReminder",
+    "slug": "glicoreminder",
+    "plugins": [
+      "expo-font"
+    ]
+  }
 }

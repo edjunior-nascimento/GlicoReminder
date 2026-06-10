@@ -1,45 +1,64 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import { NavigationContainer } from '@react-navigation/native';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { StatusBar, useColorScheme } from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import HomeScreen from './screens/HomeScreen';
+import AddGlicemiaScreen from './screens/AddGlicemiaScreen';
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import {
-  SafeAreaProvider,
-  useSafeAreaInsets,
-} from 'react-native-safe-area-context';
+type HomeDrawerParamList = {
+  Home: undefined;
+};
 
-function App() {
+type RootStackParamList = {
+  HomeDrawer: undefined;
+  AddGlicemia: undefined;
+};
+
+const Drawer = createDrawerNavigator<HomeDrawerParamList>();
+const Stack = createNativeStackNavigator<RootStackParamList>();
+
+function HomeDrawerNavigator() {
+  return (
+    <Drawer.Navigator id="main-drawer">
+      <Drawer.Screen
+        name="Home"
+        component={HomeScreen}
+        options={{
+          headerTitle: '',
+          drawerLabel: 'Home',
+        }}
+      />
+    </Drawer.Navigator>
+  );
+}
+
+export default function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
   return (
     <SafeAreaProvider>
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <AppContent />
+
+      <NavigationContainer>
+        <Stack.Navigator id="root-stack">
+          <Stack.Screen
+            name="HomeDrawer"
+            component={HomeDrawerNavigator}
+            options={{
+              headerShown: false,
+            }}
+          />
+          <Stack.Screen
+            name="AddGlicemia"
+            component={AddGlicemiaScreen}
+            options={{
+              headerTitle: '',
+            }}
+          />
+        </Stack.Navigator>
+      </NavigationContainer>
+
     </SafeAreaProvider>
   );
 }
-
-function AppContent() {
-  const safeAreaInsets = useSafeAreaInsets();
-
-  return (
-    <View style={styles.container}>
-      <NewAppScreen
-        templateFileName="App.tsx"
-        safeAreaInsets={safeAreaInsets}
-      />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
-
-export default App;
