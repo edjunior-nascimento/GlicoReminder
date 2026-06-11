@@ -58,4 +58,4 @@ export const messagens = {
         'niveis muito altos, senhor Edvandro! observe sinais como desmaio, confusão ou fraqueza, evite dirigir ou ficar sozinho',
         'Niveis altos de glicemia, senhor Edvandro! peça apoio de familiares ou amigos'
     ],
-};
+} as const;

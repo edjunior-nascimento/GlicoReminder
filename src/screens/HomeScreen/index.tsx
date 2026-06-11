@@ -4,7 +4,9 @@ import { Ionicons } from '@expo/vector-icons';
 import { useCallback, useState } from 'react';
 import { collection, getDocs, orderBy, query } from 'firebase/firestore/lite';
 import { db } from '../../../firebase/config';
-import { useFocusEffect } from '@react-navigation/native';
+import { createStaticNavigation, useFocusEffect } from '@react-navigation/native';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+import DietaScreen from '../DietaScreen';
 
 type HomeScreenProps = {
   navigation: any;
@@ -19,8 +21,8 @@ type GlicemiaType = {
 export default function HomeScreen({ navigation }: HomeScreenProps) {
 
   const [listaGlicemia, setListaGlicemia] = useState<GlicemiaType[]>([]);
-  
   const [loading, setLoading] = useState(false);
+
 
 const handleDeleted = (id: string) => {
   setListaGlicemia(prev => prev.filter(item => item.id !== id));
