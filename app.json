@@ -1,5 +1,6 @@
 {
   "expo": {
+    "icon": "./src/assets/glicoreminder.png",
     "name": "GlicoReminder",
     "slug": "glicoreminder",
     "plugins": [
