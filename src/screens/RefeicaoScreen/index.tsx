@@ -41,7 +41,7 @@ export default function RefeicaoScreen({ route }: any) {
                     <View style={styles.optionCard}>
                     { 
                         dietas?.opcoes[abaAtiva].itens.map((item, index) => (
-                            <CardAlimento key={index} alimento={item.alimento} medidaCaseira={item.medidaCaseira} imagem='https://img.magnific.com/fotos-gratis/closeup-de-carne-assada-com-molho-legumes-e-batatas-fritas-em-um-prato-sobre-a-mesa_181624-35847.jpg?semt=ais_hybrid&w=740&q=80' />
+                            <CardAlimento key={index} alimento={item.alimento} medidaCaseira={item.medidaCaseira} imagem={item.imagem} />
                         ))        
                     }
                     </View>
