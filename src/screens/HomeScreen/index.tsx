@@ -1,8 +1,8 @@
-import { ActivityIndicator, Button, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { ActivityIndicator, Button, FlatList, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import CardGlicemia from '../../components/CardGlicemia';
 import { Ionicons } from '@expo/vector-icons';
-import { useCallback, useState } from 'react';
-import { collection, getDocs, orderBy, query } from 'firebase/firestore/lite';
+import { useCallback, useEffect, useState } from 'react';
+import { collection, getDocs, limit, orderBy, query, startAfter } from 'firebase/firestore/lite';
 import { db } from '../../../firebase/config';
 import { createStaticNavigation, useFocusEffect } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
@@ -21,47 +21,99 @@ type GlicemiaType = {
 export default function HomeScreen({ navigation }: HomeScreenProps) {
 
   const [listaGlicemia, setListaGlicemia] = useState<GlicemiaType[]>([]);
+  const [lastDoc, setLastDoc] = useState<any>();
   const [loading, setLoading] = useState(false);
 
 
-const handleDeleted = (id: string) => {
-  setListaGlicemia(prev => prev.filter(item => item.id !== id));
-};
-  useFocusEffect(
-    useCallback(() => {
-      setLoading(true);
-      buscarGlicemia();
-    }, [])
-  );
+  const handleDeleted = (id: string) => {
+    setListaGlicemia(prev => prev.filter(item => item.id !== id));
+  };
 
-  
+  useEffect(() => {
+    buscarInicial();
+  }, []);
 
-  async function buscarGlicemia() {
 
+
+  async function buscarInicial() {
+    setLoading(true);
     try {
 
       const glicemiaQuery = query(
         collection(db, 'glicemia'),
-        orderBy('data', 'desc')
+        orderBy('data', 'desc'),
+        limit(10)
       );
 
-      const querySnapshot = await getDocs(
-        glicemiaQuery
-      );
+      const querySnapshot = await getDocs(glicemiaQuery);
 
       const lista = [] as GlicemiaType[];
 
       querySnapshot.forEach((doc) => {
-
         lista.push({
           id: doc.id,
           glicemia: doc.data().glicemia,
           data: doc.data().data.toDate(),
         });
-
       });
 
       setListaGlicemia(lista);
+
+      setLastDoc(querySnapshot.docs[querySnapshot.docs.length - 1]);
+
+    } catch (error) {
+
+      console.log(error);
+
+    }
+    setLoading(false);
+  }
+
+
+
+  async function carregarMais() {
+
+    if (!lastDoc || loading) return;
+
+    setLoading(true);
+
+    try {
+
+      const glicemiaQuery = query(
+        collection(db, 'glicemia'),
+        orderBy('data', 'desc'),
+        startAfter(lastDoc),
+        limit(10)
+      );
+
+      const querySnapshot = await getDocs(glicemiaQuery);
+
+
+      if (querySnapshot.empty) {
+        setLoading(false);
+        return;
+      }
+
+
+      const lista = [] as GlicemiaType[];
+
+      querySnapshot.forEach((doc) => {
+        lista.push({
+          id: doc.id,
+          glicemia: doc.data().glicemia,
+          data: doc.data().data.toDate(),
+        });
+      });
+
+
+      setListaGlicemia((prevLista) => {
+        const novos = lista.filter(
+          (item) => !prevLista.some((p) => p.id === item.id)
+        );
+        return [...prevLista, ...novos];
+      });
+
+      setLastDoc(querySnapshot.docs[querySnapshot.docs.length - 1]);
 
     } catch (error) {
 
@@ -74,8 +126,7 @@ const handleDeleted = (id: string) => {
 
 
   return (
-    <ScrollView>
-      <View style={styles.cardContent}>
+    <View style={styles.cardContent}>
         <TouchableOpacity
           style={{
             backgroundColor: '#B50303',
@@ -87,6 +138,7 @@ const handleDeleted = (id: string) => {
             flexDirection: 'row',
             gap: 10,
             marginVertical: 10,
+            marginHorizontal:20
           }}
           onPress={() => navigation.navigate('AddGlicemia')}
         >
@@ -102,20 +154,27 @@ const handleDeleted = (id: string) => {
           </Text>
         </TouchableOpacity>
 
-            {loading && (
-              <ActivityIndicator
-                size="large"
-                color="blue"
-              />
-            )}
-
-        {listaGlicemia.length > 0 && (
-          listaGlicemia.map((item) => (
-            <CardGlicemia key={item.id} id={item.id} glicemia={item.glicemia} data={item.data} onDelete={handleDeleted} />
-          ))
+      <FlatList
+        data={listaGlicemia}
+        keyExtractor={(item) => item.id}
+        renderItem={({ item }) => (
+          <CardGlicemia key={item.id} id={item.id} glicemia={item.glicemia} data={item.data} onDelete={handleDeleted} />
         )}
-      </View>
-    </ScrollView>
+        ItemSeparatorComponent={() => <View style={{ height: 10 }} />} // 👈 gap
+        onEndReached={carregarMais}
+        onEndReachedThreshold={0.5}
+        ListFooterComponent={
+          loading ? (
+            <ActivityIndicator
+              size="large"
+              color="blue"
+            />
+          ) : (
+            <View />
+          )
+        }
+      />
+    </View>
   );
 }
 
@@ -126,10 +185,8 @@ const styles = StyleSheet.create({
     flexDirection: 'column',
     gap: 5,
     flex: 1,
-    alignItems: 'center',
     marginHorizontal: 5,
   },
-
   buttonAddGlicemia: {
     display: 'flex',
     flexDirection: 'column',
