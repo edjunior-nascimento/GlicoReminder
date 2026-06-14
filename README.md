@@ -1,102 +1,104 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# GlicoReminder
 
-# Getting Started
+Aplicativo mobile para apoio no acompanhamento de glicemia e sugestões de refeições.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+O app permite registrar medições, visualizar histórico com paginação, ouvir mensagens por voz de incentivo/orientação e navegar por opções de dieta separadas por refeição.
 
-## Step 1: Start Metro
+## O que o app faz
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+- Registra novos valores de glicemia com data e hora.
+- Lista histórico de medições em ordem decrescente.
+- Carrega mais registros automaticamente ao rolar a lista.
+- Classifica visualmente o estado da glicemia com cores e ícones.
+- Lê mensagens por voz com `expo-speech`.
+- Permite apagar um registro com confirmação.
+- Exibe opções de alimentação por refeição (café da manhã, lanche, almoço, jantar etc.).
+- Lê por voz as opções de dieta da refeição selecionada.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## Tecnologias utilizadas
 
-```sh
-# Using npm
-npm start
+- Expo SDK 54
+- React Native 0.81.5
+- React 19
+- TypeScript
+- React Navigation (Stack + Drawer)
+- Firebase Firestore (SDK Web Lite)
+- Expo Speech
+- Expo Vector Icons
 
-# OR using Yarn
-yarn start
+## Estrutura principal
+
+- `App.tsx`: configuração de navegação (Stack e Drawer).
+- `src/screens/HomeScreen`: listagem de glicemias e paginação.
+- `src/screens/AddGlicemiaScreen`: teclado numérico e salvamento da medição.
+- `src/screens/DietaScreen`: seleção da refeição.
+- `src/screens/RefeicaoScreen`: exibição de opções alimentares por refeição.
+- `src/components/CardGlicemia`: cartão de medição, leitura por voz e exclusão.
+- `src/components/CardAlimento`: cartão visual de alimento e medida caseira.
+- `firebase/config.js`: inicialização do Firebase e acesso ao Firestore.
+
+## Pré-requisitos
+
+- Node.js `>= 22.11.0`
+- npm
+- Ambiente Android configurado (Android SDK + dispositivo ou emulador)
+- Para iOS (opcional): macOS + Xcode + CocoaPods
+
+## Instalação
+
+```bash
+npm install
 ```
 
-## Step 2: Build and run your app
+## Configuração Firebase
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+O projeto usa Firestore para salvar os registros de glicemia na coleção `glicemia`.
 
-### Android
+Arquivo atual de configuração:
 
-```sh
-# Using npm
-npm run android
+- `firebase/config.js`
 
-# OR using Yarn
-yarn android
-```
+Observação:
 
-### iOS
+- As chaves estão definidas diretamente no arquivo de configuração. Para produção, o recomendado é mover segredos para variáveis de ambiente e aplicar regras de segurança no Firestore.
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+# Executar a expo
+npx expo start
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
 # Executar a sdk
-cd /c/workspace/git/GlicoReminder/android
+cd android
 ./gradlew clean
 ./gradlew installRelease -PreactNativeArchitectures=arm64-v8a
 
-# Learn More
+## Scripts úteis
 
-To learn more about React Native, take a look at the following resources:
+```bash
+npm start       # inicia o Expo
+npm run android # roda no Android via Expo
+npm run ios     # roda no iOS via Expo
+npm test        # testes com Jest
+npm run lint    # lint com ESLint
+```
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## Fluxo recomendado de uso
+
+1. Abra o app e toque em **ADICIONAR GLICEMIA**.
+2. Digite o valor usando o teclado numérico.
+3. Toque em **SALVAR** para registrar no Firestore.
+4. Na tela inicial, toque no card para ouvir a leitura por voz.
+5. Pressione e segure o card para abrir ações como apagar.
+6. Acesse **Dieta** no menu para visualizar refeições e opções.
+
+## Testes
+
+```bash
+npm test
+```
+
+## Melhorias sugeridas
+
+- Adicionar autenticação de usuário.
+- Isolar configurações sensíveis em variáveis de ambiente.
+- Criar testes para fluxos de cadastro/exclusão.
+- Implementar filtros por período no histórico de glicemia.
