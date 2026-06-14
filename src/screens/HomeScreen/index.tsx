@@ -29,11 +29,12 @@ export default function HomeScreen({ navigation }: HomeScreenProps) {
     setListaGlicemia(prev => prev.filter(item => item.id !== id));
   };
 
-  useEffect(() => {
-    buscarInicial();
-  }, []);
 
-
+  useFocusEffect(
+    useCallback(() => {
+      buscarInicial();
+    }, [])
+  );
 
   async function buscarInicial() {
     setLoading(true);
