@@ -3,20 +3,39 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import CardAlimento from '../../components/CardAlimento';
 import { dieta } from '../../data/dieta';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import * as Speech from 'expo-speech';
 
 export default function RefeicaoScreen({ route }: any) {
-    const refeicao = route?.params ;
+    const refeicao = route?.params;
 
     const [abaAtiva, setAbaAtiva] = useState(0);
     const dietas = dieta.find(d => d.id.toString() === refeicao);
 
+    useEffect(() => {
+        if (dietas) {
+            falar(0);
+        }
+    }, []);
+
+    function falar(index:number) {
+        Speech.stop();
+        if (!dietas) return;
+
+        if(index === 0) {
+            Speech.speak(`Para o ${dietas?.refeicao}, você tem ${dietas?.opcoes.length} opção${dietas?.opcoes.length > 1 ? 's' : ''}. A opção ${index + 1} voce pode está comendo: ${dietas?.opcoes[index].itens.map(i => `${i.medidaCaseira} de ${i.alimento}`).join(', com')}`);
+        }else {
+            Speech.speak(`Na opção ${index + 1} voce pode está comendo: ${dietas?.opcoes[index].itens.map(i => `${i.medidaCaseira} de ${i.alimento}`).join(', com')}`);
+        }
+    }
+
+
     return (
         <ScrollView>
             <View style={styles.container}>
-                
+
                 <Pressable style={styles.titlePill}>
                     <Text style={styles.titleText}>{dietas?.refeicao}</Text>
-                    <MaterialCommunityIcons name="leaf" size={32 } color="#96B82E" />
+                    <MaterialCommunityIcons name="leaf" size={32} color="#96B82E" />
                 </Pressable>
                 <View>
                     <ScrollView
@@ -29,7 +48,7 @@ export default function RefeicaoScreen({ route }: any) {
                                 <Pressable
                                     key={index}
                                     style={[styles.tabButton, abaAtiva === index && styles.tabButtonAtiva]}
-                                    onPress={() => setAbaAtiva(index)}
+                                    onPress={() => { setAbaAtiva(index); falar(index); }}
                                 >
                                     <Text style={[styles.tabText, abaAtiva === index && styles.tabTextAtiva]}>OPÇÃO {index + 1}</Text>
                                 </Pressable>
@@ -38,13 +57,13 @@ export default function RefeicaoScreen({ route }: any) {
                     </ScrollView>
                 </View>
 
-                    <View style={styles.optionCard}>
-                    { 
+                <View style={styles.optionCard}>
+                    {
                         dietas?.opcoes[abaAtiva].itens.map((item, index) => (
                             <CardAlimento key={index} alimento={item.alimento} medidaCaseira={item.medidaCaseira} imagem={item.imagem} />
-                        ))        
+                        ))
                     }
-                    </View>
+                </View>
             </View>
         </ScrollView>
     );
