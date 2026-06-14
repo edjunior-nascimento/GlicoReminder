@@ -86,6 +86,11 @@ You've successfully run and modified your React Native App. :partying_face:
 
 If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
+# Executar a sdk
+cd /c/workspace/git/GlicoReminder/android
+./gradlew clean
+./gradlew installRelease -PreactNativeArchitectures=arm64-v8a
+
 # Learn More
 
 To learn more about React Native, take a look at the following resources:

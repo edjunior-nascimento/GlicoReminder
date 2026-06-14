@@ -1,0 +1,1095 @@
+Initialized native services in: C:\Users\enascime\.gradle\native
+Initialized jansi services in: C:\Users\enascime\.gradle\native
+The client will now receive all logging from the daemon (pid: 10208). The daemon log file: C:\Users\enascime\.gradle\daemon\8.13\daemon-10208.out.log
+Starting 3rd build in daemon [uptime: 1 hrs 7 mins 10.719 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 2 GiB, non-heap usage: 19% of 512 MiB]
+Using 8 worker leases.
+Invalidating in-memory cache of C:\workspace\git\GlicoReminder\android\.gradle\8.13\fileHashes\fileHashes.bin
+Invalidating in-memory cache of C:\workspace\git\GlicoReminder\android\.gradle\buildOutputCleanup\outputFiles.bin
+Invalidating in-memory cache of C:\workspace\git\GlicoReminder\android\.gradle\8.13\fileHashes\resourceHashesCache.bin
+Now considering [C:\workspace\git\GlicoReminder\android, C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Invalidating in-memory cache of C:\Users\enascime\.gradle\caches\journal-1\file-access.bin
+Invalidating in-memory cache of C:\Users\enascime\.gradle\caches\8.13\fileHashes\fileHashes.bin
+Invalidating in-memory cache of C:\Users\enascime\.gradle\caches\8.13\fileHashes\resourceHashesCache.bin
+Invalidating in-memory cache of C:\workspace\git\GlicoReminder\android\.gradle\8.13\checksums\md5-checksums.bin
+Invalidating in-memory cache of C:\workspace\git\GlicoReminder\android\.gradle\8.13\checksums\sha1-checksums.bin
+Invalidating in-memory cache of C:\workspace\git\GlicoReminder\android\.gradle\8.13\checksums\sha256-checksums.bin
+Invalidating in-memory cache of C:\workspace\git\GlicoReminder\android\.gradle\8.13\checksums\sha512-checksums.bin
+Now considering [C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin, C:\workspace\git\GlicoReminder\android] as hierarchies to watch
+Invalidating in-memory cache of C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin\.gradle\buildOutputCleanup\outputFiles.bin
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '0.5.0']
+Now considering [C:\workspace\git\GlicoReminder\node_modules\expo-modules-autolinking\android\expo-gradle-plugin, C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin, C:\workspace\git\GlicoReminder\android] as hierarchies to watch
+
+> Configure project :gradle-plugin
+Evaluating project ':gradle-plugin' using build file 'C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20', apply: false]
+
+> Configure project :gradle-plugin:react-native-gradle-plugin
+Evaluating project ':gradle-plugin:react-native-gradle-plugin' using build file 'C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin\react-native-gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'java-gradle-plugin']
+Build 63c3c6ec-ac01-40d3-b9b7-633b8454fcd7 is started
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:settings-plugin
+Evaluating project ':gradle-plugin:settings-plugin' using build file 'C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin\settings-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'java-gradle-plugin']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:shared
+Evaluating project ':gradle-plugin:shared' using build file 'C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin\shared\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :gradle-plugin:shared-testutil
+Evaluating project ':gradle-plugin:shared-testutil' using build file 'C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin\shared-testutil\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :expo-gradle-plugin
+Evaluating project ':expo-gradle-plugin' using build file 'C:\workspace\git\GlicoReminder\node_modules\expo-modules-autolinking\android\expo-gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20', apply: false]
+Resolved plugin [id: 'java-gradle-plugin']
+
+> Configure project :expo-gradle-plugin:expo-autolinking-plugin
+Evaluating project ':expo-gradle-plugin:expo-autolinking-plugin' using build file 'C:\workspace\git\GlicoReminder\node_modules\expo-modules-autolinking\android\expo-gradle-plugin\expo-autolinking-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm']
+Resolved plugin [id: 'java-gradle-plugin']
+Build a561719e-374a-4d51-9547-5449aa146053 is started
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :expo-gradle-plugin:expo-autolinking-plugin-shared
+Evaluating project ':expo-gradle-plugin:expo-autolinking-plugin-shared' using build file 'C:\workspace\git\GlicoReminder\node_modules\expo-modules-autolinking\android\expo-gradle-plugin\expo-autolinking-plugin-shared\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.serialization', version: '1.9.24']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+
+> Configure project :expo-gradle-plugin:expo-autolinking-settings-plugin
+Evaluating project ':expo-gradle-plugin:expo-autolinking-settings-plugin' using build file 'C:\workspace\git\GlicoReminder\node_modules\expo-modules-autolinking\android\expo-gradle-plugin\expo-autolinking-settings-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm']
+Resolved plugin [id: 'java-gradle-plugin']
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Resolved plugin [id: 'expo-autolinking-settings']
+Resolved plugin [id: 'com.facebook.react.settings']
+Resolve mutations for :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[#337,Execution worker,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors (Thread[#335,included builds,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors (Thread[#337,Execution worker,5,main]) started.
+:gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[#338,Execution worker Thread 2,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin (Thread[#337,Execution worker,5,main]) started.
+Invalidating in-memory cache of C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin\.gradle\8.13\executionHistory\executionHistory.bin
+
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin (Thread[#337,Execution worker,5,main]) started.
+Resolve mutations for :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors (Thread[#338,Execution worker Thread 2,5,main]) started.
+:gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors (Thread[#338,Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :gradle-plugin:shared:compileKotlin (Thread[#338,Execution worker Thread 2,5,main]) started.
+:gradle-plugin:shared:compileKotlin (Thread[#338,Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:shared:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:shared:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle-plugin:shared:compileJava (Thread[#338,Execution worker Thread 2,5,main]) started.
+:gradle-plugin:shared:compileJava (Thread[#338,Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:shared:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:shared:processResources (Thread[#338,Execution worker Thread 2,5,main]) started.
+:gradle-plugin:shared:processResources (Thread[#338,Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+Skipping task ':gradle-plugin:shared:processResources' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:shared:classes (Thread[#338,Execution worker Thread 2,5,main]) started.
+:gradle-plugin:shared:classes (Thread[#338,Execution worker Thread 2,5,main]) started.
+
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+Skipping task ':gradle-plugin:shared:classes' as it has no actions.
+Resolve mutations for :gradle-plugin:shared:jar (Thread[#340,Execution worker Thread 4,5,main]) started.
+:gradle-plugin:shared:jar (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:shared:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:shared:jar' as it is up-to-date.
+work action resolve shared.jar (project :gradle-plugin:shared) (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle-plugin:settings-plugin:compileKotlin (Thread[#340,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava (Thread[#337,Execution worker,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava (Thread[#337,Execution worker,5,main]) started.
+:gradle-plugin:settings-plugin:compileKotlin (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources (Thread[#337,Execution worker,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:processResources (Thread[#337,Execution worker,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:processResources' as it has no source files and no previous output files.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:classes (Thread[#337,Execution worker,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:classes (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:classes' as it has no actions.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin-shared:jar (Thread[#344,Execution worker Thread 7,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin-shared:jar (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin-shared:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin-shared:jar' as it is up-to-date.
+work action resolve expo-autolinking-plugin-shared-1.0.jar (project :expo-gradle-plugin:expo-autolinking-plugin-shared) (Thread[#344,Execution worker Thread 7,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[#344,Execution worker Thread 7,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin (Thread[#344,Execution worker Thread 7,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:settings-plugin:compileKotlin' as it is up-to-date.
+Resolve mutations for :gradle-plugin:settings-plugin:compileJava (Thread[#340,Execution worker Thread 4,5,main]) started.
+:gradle-plugin:settings-plugin:compileJava (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:settings-plugin:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :gradle-plugin:settings-plugin:pluginDescriptors (Thread[#340,Execution worker Thread 4,5,main]) started.
+:gradle-plugin:settings-plugin:pluginDescriptors (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:settings-plugin:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :gradle-plugin:settings-plugin:processResources (Thread[#340,Execution worker Thread 4,5,main]) started.
+:gradle-plugin:settings-plugin:processResources (Thread[#339,Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:settings-plugin:processResources' as it is up-to-date.
+Resolve mutations for :gradle-plugin:settings-plugin:classes (Thread[#339,Execution worker Thread 3,5,main]) started.
+:gradle-plugin:settings-plugin:classes (Thread[#339,Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+Skipping task ':gradle-plugin:settings-plugin:classes' as it has no actions.
+Resolve mutations for :gradle-plugin:settings-plugin:jar (Thread[#339,Execution worker Thread 3,5,main]) started.
+:gradle-plugin:settings-plugin:jar (Thread[#339,Execution worker Thread 3,5,main]) started.
+
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:settings-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:settings-plugin:jar' as it is up-to-date.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin' as it is up-to-date.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava (Thread[#344,Execution worker Thread 7,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors (Thread[#344,Execution worker Thread 7,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources (Thread[#344,Execution worker Thread 7,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:processResources (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:processResources' as it is up-to-date.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:classes (Thread[#344,Execution worker Thread 7,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:classes (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:classes' as it has no actions.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-settings-plugin:jar (Thread[#344,Execution worker Thread 7,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-settings-plugin:jar (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-settings-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-settings-plugin:jar' as it is up-to-date.
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\android Command: node --print require.resolve('expo-modules-autolinking/package.json', { paths: [require.resolve('expo/package.json')] })
+Successfully started process 'command 'node''
+Starting process 'command 'cmd''. Working directory: C:\workspace\git\GlicoReminder\android Command: cmd /c node --no-warnings --eval require('expo/bin/autolinking') expo-modules-autolinking resolve --platform android --json
+Successfully started process 'command 'cmd''
+Settings evaluated using settings file 'C:\workspace\git\GlicoReminder\android\settings.gradle'.
+Now considering [C:\workspace\git\GlicoReminder\node_modules\expo-modules-core\expo-module-gradle-plugin, C:\workspace\git\GlicoReminder\node_modules\expo-modules-autolinking\android\expo-gradle-plugin, C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin, C:\workspace\git\GlicoReminder\android] as hierarchies to watch
+Projects loaded. Root project using build file 'C:\workspace\git\GlicoReminder\android\build.gradle'.
+Included projects: [root project 'GlicoReminder', project ':app', project ':expo', project ':expo-constants', project ':expo-modules-core', project ':react-native-gesture-handler', project ':react-native-reanimated', project ':react-native-safe-area-context', project ':react-native-screens', project ':react-native-worklets']
+Registering project ':expo-gradle-plugin' in composite build. Will substitute for module ':expo-gradle-plugin'.
+Registering project ':expo-gradle-plugin:expo-autolinking-plugin' in composite build. Will substitute for module 'expo.modules:expo-autolinking-plugin'.
+Registering project ':expo-gradle-plugin:expo-autolinking-plugin-shared' in composite build. Will substitute for module 'expo.modules:expo-autolinking-plugin-shared'.
+Registering project ':expo-gradle-plugin:expo-autolinking-settings-plugin' in composite build. Will substitute for module 'expo.modules:expo-autolinking-settings-plugin'.
+
+> Configure project :expo-module-gradle-plugin
+Evaluating project ':expo-module-gradle-plugin' using build file 'C:\workspace\git\GlicoReminder\node_modules\expo-modules-core\expo-module-gradle-plugin\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.1.20']
+Resolved plugin [id: 'java-gradle-plugin']
+Build 22f7aef0-b5c3-4534-b190-a69e643ab695 is started
+Using Kotlin Gradle Plugin gradle85 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Registering project ':expo-module-gradle-plugin' in composite build. Will substitute for module 'expo.modules:expo-module-gradle-plugin'.
+Registering project ':gradle-plugin' in composite build. Will substitute for module ':gradle-plugin-root'.
+Registering project ':gradle-plugin:react-native-gradle-plugin' in composite build. Will substitute for module 'com.facebook.react:react-native-gradle-plugin'.
+Registering project ':gradle-plugin:settings-plugin' in composite build. Will substitute for module 'com.facebook.react:settings-plugin'.
+Registering project ':gradle-plugin:shared' in composite build. Will substitute for module 'com.facebook.react:shared'.
+Registering project ':gradle-plugin:shared-testutil' in composite build. Will substitute for module 'com.facebook.react:shared-testutil'.
+work action resolve expo-autolinking-plugin-shared-1.0.jar (project :expo-gradle-plugin:expo-autolinking-plugin-shared) (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':expo-module-gradle-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-module-gradle-plugin:pluginDescriptors' as it is up-to-date.
+:expo-module-gradle-plugin:processResources (Thread[#339,Execution worker Thread 3,5,main]) started.
+
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+Caching disabled for task ':expo-module-gradle-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-module-gradle-plugin:processResources' as it is up-to-date.
+
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':gradle-plugin:react-native-gradle-plugin:compileKotlin' as it is up-to-date.
+other build task :gradle-plugin:react-native-gradle-plugin:compileKotlin (Thread[#339,Execution worker Thread 3,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:compileKotlin' as it is up-to-date.
+
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+Skipping task ':gradle-plugin:react-native-gradle-plugin:compileJava' as it has no source files and no previous output files.
+other build task :gradle-plugin:react-native-gradle-plugin:compileJava (Thread[#344,Execution worker Thread 7,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:pluginDescriptors (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:compileJava' as it has no source files and no previous output files.
+
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:pluginDescriptors' as it is up-to-date.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:processResources (Thread[#344,Execution worker Thread 7,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:processResources (Thread[#344,Execution worker Thread 7,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors' as it is up-to-date.
+
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:processResources' as it is up-to-date.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:classes (Thread[#340,Execution worker Thread 4,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:classes (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+Skipping task ':gradle-plugin:react-native-gradle-plugin:classes' as it has no actions.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:jar (Thread[#340,Execution worker Thread 4,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:jar (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:processResources' as it is up-to-date.
+:expo-gradle-plugin:expo-autolinking-plugin:classes (Thread[#342,Execution worker Thread 6,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:classes' as it has no actions.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:jar (Thread[#342,Execution worker Thread 6,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:jar (Thread[#342,Execution worker Thread 6,5,main]) started.
+
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+Caching disabled for task ':gradle-plugin:react-native-gradle-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':gradle-plugin:react-native-gradle-plugin:jar' as it is up-to-date.
+work action resolve main (project :gradle-plugin:react-native-gradle-plugin) (Thread[#340,Execution worker Thread 4,5,main]) started.
+work action resolve main (project :gradle-plugin:react-native-gradle-plugin) (Thread[#340,Execution worker Thread 4,5,main]) started.
+Resolve mutations for :expo-module-gradle-plugin:compileKotlin (Thread[#340,Execution worker Thread 4,5,main]) started.
+:expo-module-gradle-plugin:compileKotlin (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+Caching disabled for task ':expo-gradle-plugin:expo-autolinking-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-gradle-plugin:expo-autolinking-plugin:jar' as it is up-to-date.
+
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+Caching disabled for task ':expo-module-gradle-plugin:compileKotlin' because:
+  Build cache is disabled
+Skipping task ':expo-module-gradle-plugin:compileKotlin' as it is up-to-date.
+Resolve mutations for :expo-module-gradle-plugin:compileJava (Thread[#340,Execution worker Thread 4,5,main]) started.
+:expo-module-gradle-plugin:compileJava (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+Skipping task ':expo-module-gradle-plugin:compileJava' as it has no source files and no previous output files.
+Resolve mutations for :expo-module-gradle-plugin:classes (Thread[#340,Execution worker Thread 4,5,main]) started.
+:expo-module-gradle-plugin:classes (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+Skipping task ':expo-module-gradle-plugin:classes' as it has no actions.
+Resolve mutations for :expo-module-gradle-plugin:jar (Thread[#340,Execution worker Thread 4,5,main]) started.
+:expo-module-gradle-plugin:jar (Thread[#340,Execution worker Thread 4,5,main]) started.
+
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+Caching disabled for task ':expo-module-gradle-plugin:jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':expo-module-gradle-plugin:jar' as it is up-to-date.
+
+> Configure project :
+Evaluating root project 'GlicoReminder' using build file 'C:\workspace\git\GlicoReminder\android\build.gradle'.
+Found project 'project :expo-gradle-plugin:expo-autolinking-plugin' as substitute for module 'expo.modules:expo-autolinking-plugin'.
+Found project 'project :expo-module-gradle-plugin' as substitute for module 'expo.modules:expo-module-gradle-plugin'.
+Found project 'project :gradle-plugin:react-native-gradle-plugin' as substitute for module 'com.facebook.react:react-native-gradle-plugin'.
+Found project 'project :expo-gradle-plugin:expo-autolinking-plugin-shared' as substitute for module 'expo.modules:expo-autolinking-plugin-shared'.
+Found project 'project :gradle-plugin:react-native-gradle-plugin' as substitute for module 'com.facebook.react:react-native-gradle-plugin'.
+Found project 'project :expo-gradle-plugin:expo-autolinking-plugin-shared' as substitute for module 'expo.modules:expo-autolinking-plugin-shared'.
+Ignoring listeners of task graph ready event, as this build (:expo-gradle-plugin) has already executed work.
+Ignoring listeners of task graph ready event, as this build (:gradle-plugin) has already executed work.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[#335,included builds,5,main]) started.
+Resolve mutations for :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[#336,included builds Thread 2,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[#335,included builds,5,main]) started.
+:expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[#336,included builds Thread 2,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[#388,included builds Thread 3,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin (Thread[#335,included builds,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors (Thread[#388,included builds Thread 3,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:compileKotlin (Thread[#335,included builds,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:compileKotlin (Thread[#388,included builds Thread 3,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:compileKotlin (Thread[#388,included builds Thread 3,5,main]) started.
+Resolve mutations for :expo-module-gradle-plugin:pluginDescriptors (Thread[#336,included builds Thread 2,5,main]) started.
+:expo-module-gradle-plugin:pluginDescriptors (Thread[#336,included builds Thread 2,5,main]) started.
+Resolve mutations for :expo-module-gradle-plugin:processResources (Thread[#336,included builds Thread 2,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:compileJava (Thread[#388,included builds Thread 3,5,main]) started.
+:gradle-plugin:react-native-gradle-plugin:compileJava (Thread[#388,included builds Thread 3,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:compileJava (Thread[#335,included builds,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:compileJava (Thread[#335,included builds,5,main]) started.
+Resolve mutations for :gradle-plugin:react-native-gradle-plugin:pluginDescriptors (Thread[#388,included builds Thread 3,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors (Thread[#335,included builds,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors (Thread[#335,included builds,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:processResources (Thread[#335,included builds,5,main]) started.
+:expo-gradle-plugin:expo-autolinking-plugin:processResources (Thread[#335,included builds,5,main]) started.
+Resolve mutations for :expo-gradle-plugin:expo-autolinking-plugin:classes (Thread[#335,included builds,5,main]) started.
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m36.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m36[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m30.0.14904198[0m
+  - kotlin:      [32m2.1.20[0m
+  - ksp:         [32m2.1.20-2.0.1[0m
+
+> Configure project :app
+Evaluating project ':app' using build file 'C:\workspace\git\GlicoReminder\android\app\build.gradle'.
+Using default execution profile
+Build dbdb3750-4a36-481f-829e-fe5b035934bf is started
+Using Kotlin Gradle Plugin gradle85 variant
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+
+> Configure project :expo-constants
+Evaluating project ':expo-constants' using build file 'C:\workspace\git\GlicoReminder\node_modules\expo\node_modules\expo-constants\android\build.gradle'.
+Resolved plugin [id: 'com.android.library']
+Resolved plugin [id: 'expo-module-gradle-plugin']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\node_modules\expo\node_modules\expo-constants\android Command: node -e console.log(require('path').dirname(require.resolve('expo-constants/package.json')));
+Successfully started process 'command 'node''
+
+> Configure project :expo
+Evaluating project ':expo' using build file 'C:\workspace\git\GlicoReminder\node_modules\expo\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+
+Using expo modules
+  - [32mexpo-constants[0m (18.0.13)
+
+> Configure project :expo-modules-core
+Evaluating project ':expo-modules-core' using build file 'C:\workspace\git\GlicoReminder\node_modules\expo-modules-core\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+
+> Configure project :expo
+  - [32mexpo-modules-core[0m (3.0.30)
+  - [33m[📦][0m [32mexpo-asset[0m (12.0.13)
+  - [33m[📦][0m [32mexpo-file-system[0m (19.0.23)
+  - [33m[📦][0m [32mexpo-font[0m (14.0.12)
+  - [33m[📦][0m [32mexpo-keep-awake[0m (15.0.8)
+  - [33m[📦][0m [32mexpo-speech[0m (14.0.8)
+
+
+> Configure project :react-native-gesture-handler
+Evaluating project ':react-native-gesture-handler' using build file 'C:\workspace\git\GlicoReminder\node_modules\react-native-gesture-handler\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+
+> Configure project :react-native-reanimated
+Evaluating project ':react-native-reanimated' using build file 'C:\workspace\git\GlicoReminder\node_modules\react-native-reanimated\android\build.gradle'.
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\android Command: node --print require.resolve('react-native-worklets/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Using default execution profile
+
+> Configure project :react-native-worklets
+Evaluating project ':react-native-worklets' using build file 'C:\workspace\git\GlicoReminder\node_modules\react-native-worklets\android\build.gradle'.
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Starting process 'command 'node''. Working directory: C:\workspace\git\GlicoReminder\android Command: node --print require.resolve('react-native/package.json')
+Successfully started process 'command 'node''
+Using default execution profile
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+
+> Configure project :react-native-reanimated
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+
+> Configure project :react-native-safe-area-context
+Evaluating project ':react-native-safe-area-context' using build file 'C:\workspace\git\GlicoReminder\node_modules\react-native-safe-area-context\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+
+> Configure project :react-native-screens
+Evaluating project ':react-native-screens' using build file 'C:\workspace\git\GlicoReminder\node_modules\react-native-screens\android\build.gradle'.
+Using default execution profile
+Using Kotlin Gradle Plugin gradle85 variant
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+C/C++: android.ndkVersion from module build.gradle is [30.0.14904198]
+C/C++: android.ndkPath from module build.gradle is not set
+C/C++: ndk.dir in local.properties is not set
+C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+C/C++: sdkFolder is C:\Users\enascime\AppData\Local\Android\Sdk
+All projects evaluated.
+Task name matched 'clean'
+Task name matched 'assembleRelease'
+Selected primary task 'clean' from project :
+Selected primary task 'assembleRelease' from project :
+Tasks to be executed: [task ':app:externalNativeBuildCleanDebug', task ':app:externalNativeBuildCleanDebugOptimized', task ':app:externalNativeBuildCleanRelease', task ':app:clean', task ':expo:clean', task ':expo-constants:clean', task ':expo-modules-core:externalNativeBuildCleanDebug', task ':expo-modules-core:externalNativeBuildCleanRelease', task ':expo-modules-core:clean', task ':react-native-gesture-handler:externalNativeBuildCleanDebug', task ':react-native-gesture-handler:externalNativeBuildCleanRelease', task ':react-native-gesture-handler:clean', task ':react-native-reanimated:cleanCmakeCache', task ':react-native-reanimated:externalNativeBuildCleanDebug', task ':react-native-reanimated:externalNativeBuildCleanRelease', task ':react-native-reanimated:clean', task ':react-native-safe-area-context:clean', task ':react-native-screens:externalNativeBuildCleanDebug', task ':react-native-screens:externalNativeBuildCleanRelease', task ':react-native-screens:clean', task ':react-native-worklets:cleanCmakeCache', task ':react-native-worklets:externalNativeBuildCleanDebug', task ':react-native-worklets:externalNativeBuildCleanRelease', task ':react-native-worklets:clean', task ':app:generateAutolinkingNewArchitectureFiles', task ':app:generateAutolinkingPackageList', task ':app:generateCodegenSchemaFromJavaScript', task ':app:generateCodegenArtifactsFromSchema', task ':app:generateReactNativeEntryPoint', task ':expo:generatePackagesList', task ':expo:preBuild', task ':expo-constants:createExpoConfig', task ':expo-constants:preBuild', task ':expo-modules-core:preBuild', task ':react-native-gesture-handler:generateCodegenSchemaFromJavaScript', task ':react-native-gesture-handler:generateCodegenArtifactsFromSchema', task ':react-native-gesture-handler:preBuild', task ':react-native-reanimated:assertMinimalReactNativeVersionTask', task ':react-native-reanimated:assertNewArchitectureEnabledTask', task ':react-native-reanimated:assertWorkletsVersionTask', task ':react-native-reanimated:generateCodegenSchemaFromJavaScript', task ':react-native-reanimated:generateCodegenArtifactsFromSchema', task ':react-native-reanimated:prepareReanimatedHeadersForPrefabs', task ':react-native-reanimated:preBuild', task ':react-native-safe-area-context:generateCodegenSchemaFromJavaScript', task ':react-native-safe-area-context:generateCodegenArtifactsFromSchema', task ':react-native-safe-area-context:preBuild', task ':react-native-screens:generateCodegenSchemaFromJavaScript', task ':react-native-screens:generateCodegenArtifactsFromSchema', task ':react-native-screens:preBuild', task ':react-native-worklets:assertMinimalReactNativeVersionTask', task ':react-native-worklets:assertNewArchitectureEnabledTask', task ':react-native-worklets:generateCodegenSchemaFromJavaScript', task ':react-native-worklets:generateCodegenArtifactsFromSchema', task ':react-native-worklets:prepareWorkletsHeadersForPrefabs', task ':react-native-worklets:preBuild', task ':app:preBuild', task ':app:preReleaseBuild', task ':react-native-reanimated:preReleaseBuild', task ':react-native-worklets:preReleaseBuild', task ':react-native-worklets:configureCMakeRelWithDebInfo[arm64-v8a]', task ':react-native-worklets:configureCMakeRelWithDebInfo[armeabi-v7a]', task ':react-native-worklets:configureCMakeRelWithDebInfo[x86]', task ':react-native-worklets:configureCMakeRelWithDebInfo[x86_64]', task ':react-native-worklets:generateJsonModelRelease', task ':react-native-worklets:prefabReleaseConfigurePackage', task ':react-native-reanimated:configureCMakeRelWithDebInfo[arm64-v8a]', task ':react-native-reanimated:configureCMakeRelWithDebInfo[armeabi-v7a]', task ':react-native-reanimated:configureCMakeRelWithDebInfo[x86]', task ':react-native-reanimated:configureCMakeRelWithDebInfo[x86_64]', task ':react-native-reanimated:generateJsonModelRelease', task ':react-native-reanimated:prefabReleaseConfigurePackage', task ':app:configureCMakeRelWithDebInfo[arm64-v8a]', task ':react-native-worklets:buildCMakeRelWithDebInfo[arm64-v8a][worklets]', task ':react-native-worklets:buildCMakeRelWithDebInfo[armeabi-v7a][worklets]', task ':react-native-worklets:buildCMakeRelWithDebInfo[x86][worklets]', task ':react-native-worklets:buildCMakeRelWithDebInfo[x86_64][worklets]', task ':react-native-worklets:externalNativeBuildRelease', task ':react-native-worklets:prefabReleasePackage', task ':react-native-reanimated:buildCMakeRelWithDebInfo[arm64-v8a][reanimated]', task ':react-native-reanimated:buildCMakeRelWithDebInfo[armeabi-v7a][reanimated]', task ':react-native-reanimated:buildCMakeRelWithDebInfo[x86][reanimated]', task ':react-native-reanimated:buildCMakeRelWithDebInfo[x86_64][reanimated]', task ':react-native-worklets:mergeReleaseJniLibFolders', task ':react-native-worklets:mergeReleaseNativeLibs', task ':react-native-worklets:copyReleaseJniLibsProjectOnly', task ':react-native-reanimated:externalNativeBuildRelease', task ':react-native-reanimated:prefabReleasePackage', task ':app:buildCMakeRelWithDebInfo[arm64-v8a]', task ':app:configureCMakeRelWithDebInfo[armeabi-v7a]', task ':app:buildCMakeRelWithDebInfo[armeabi-v7a]', task ':app:configureCMakeRelWithDebInfo[x86]', task ':app:buildCMakeRelWithDebInfo[x86]', task ':app:configureCMakeRelWithDebInfo[x86_64]', task ':app:buildCMakeRelWithDebInfo[x86_64]', task ':app:mergeReleaseJniLibFolders', task ':expo:preReleaseBuild', task ':expo:mergeReleaseJniLibFolders', task ':expo:mergeReleaseNativeLibs', task ':expo:copyReleaseJniLibsProjectOnly', task ':expo-constants:preReleaseBuild', task ':expo-constants:mergeReleaseJniLibFolders', task ':expo-constants:mergeReleaseNativeLibs', task ':expo-constants:copyReleaseJniLibsProjectOnly', task ':expo-modules-core:preReleaseBuild', task ':expo-modules-core:configureCMakeRelWithDebInfo[arm64-v8a]', task ':expo-modules-core:buildCMakeRelWithDebInfo[arm64-v8a]', task ':expo-modules-core:configureCMakeRelWithDebInfo[armeabi-v7a]', task ':expo-modules-core:buildCMakeRelWithDebInfo[armeabi-v7a]', task ':expo-modules-core:configureCMakeRelWithDebInfo[x86]', task ':expo-modules-core:buildCMakeRelWithDebInfo[x86]', task ':expo-modules-core:configureCMakeRelWithDebInfo[x86_64]', task ':expo-modules-core:buildCMakeRelWithDebInfo[x86_64]', task ':expo-modules-core:mergeReleaseJniLibFolders', task ':expo-modules-core:mergeReleaseNativeLibs', task ':expo-modules-core:copyReleaseJniLibsProjectOnly', task ':react-native-gesture-handler:preReleaseBuild', task ':react-native-gesture-handler:configureCMakeRelWithDebInfo[arm64-v8a]', task ':react-native-gesture-handler:buildCMakeRelWithDebInfo[arm64-v8a]', task ':react-native-gesture-handler:configureCMakeRelWithDebInfo[armeabi-v7a]', task ':react-native-gesture-handler:buildCMakeRelWithDebInfo[armeabi-v7a]', task ':react-native-gesture-handler:configureCMakeRelWithDebInfo[x86]', task ':react-native-gesture-handler:buildCMakeRelWithDebInfo[x86]', task ':react-native-gesture-handler:configureCMakeRelWithDebInfo[x86_64]', task ':react-native-gesture-handler:buildCMakeRelWithDebInfo[x86_64]', task ':react-native-gesture-handler:mergeReleaseJniLibFolders', task ':react-native-gesture-handler:mergeReleaseNativeLibs', task ':react-native-gesture-handler:copyReleaseJniLibsProjectOnly', task ':react-native-reanimated:mergeReleaseJniLibFolders', task ':react-native-reanimated:mergeReleaseNativeLibs', task ':react-native-reanimated:copyReleaseJniLibsProjectOnly', task ':react-native-safe-area-context:preReleaseBuild', task ':react-native-safe-area-context:mergeReleaseJniLibFolders', task ':react-native-safe-area-context:mergeReleaseNativeLibs', task ':react-native-safe-area-context:copyReleaseJniLibsProjectOnly', task ':react-native-screens:preReleaseBuild', task ':react-native-screens:configureCMakeRelWithDebInfo[arm64-v8a]', task ':react-native-screens:buildCMakeRelWithDebInfo[arm64-v8a]', task ':react-native-screens:configureCMakeRelWithDebInfo[armeabi-v7a]', task ':react-native-screens:buildCMakeRelWithDebInfo[armeabi-v7a]', task ':react-native-screens:configureCMakeRelWithDebInfo[x86]', task ':react-native-screens:buildCMakeRelWithDebInfo[x86]', task ':react-native-screens:configureCMakeRelWithDebInfo[x86_64]', task ':react-native-screens:buildCMakeRelWithDebInfo[x86_64]', task ':react-native-screens:mergeReleaseJniLibFolders', task ':react-native-screens:mergeReleaseNativeLibs', task ':react-native-screens:copyReleaseJniLibsProjectOnly', task ':app:mergeReleaseNativeLibs', task ':app:stripReleaseDebugSymbols', task ':app:extractReleaseNativeSymbolTables', task ':app:mergeReleaseNativeDebugMetadata', task ':react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors', task ':react-native-gesture-handler:generateReleaseBuildConfig', task ':react-native-gesture-handler:generateReleaseResValues', task ':react-native-gesture-handler:generateReleaseResources', task ':react-native-gesture-handler:packageReleaseResources', task ':react-native-gesture-handler:parseReleaseLocalResources', task ':react-native-gesture-handler:generateReleaseRFile', task ':react-native-reanimated:generateReleaseBuildConfig', task ':react-native-reanimated:generateReleaseResValues', task ':react-native-reanimated:generateReleaseResources', task ':react-native-reanimated:packageReleaseResources', task ':react-native-reanimated:parseReleaseLocalResources', task ':react-native-reanimated:generateReleaseRFile', task ':react-native-reanimated:javaPreCompileRelease', task ':react-native-worklets:generateReleaseBuildConfig', task ':react-native-worklets:generateReleaseResValues', task ':react-native-worklets:generateReleaseResources', task ':react-native-worklets:packageReleaseResources', task ':react-native-worklets:parseReleaseLocalResources', task ':react-native-worklets:generateReleaseRFile', task ':react-native-worklets:javaPreCompileRelease', task ':react-native-worklets:compileReleaseJavaWithJavac', task ':react-native-worklets:bundleLibCompileToJarRelease', task ':react-native-reanimated:compileReleaseJavaWithJavac', task ':react-native-reanimated:bundleLibCompileToJarRelease', task ':react-native-gesture-handler:compileReleaseKotlin', task ':react-native-gesture-handler:javaPreCompileRelease', task ':react-native-gesture-handler:compileReleaseJavaWithJavac', task ':react-native-gesture-handler:bundleLibRuntimeToDirRelease', task ':react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors', task ':react-native-safe-area-context:generateReleaseBuildConfig', task ':react-native-safe-area-context:generateReleaseResValues', task ':react-native-safe-area-context:generateReleaseResources', task ':react-native-safe-area-context:packageReleaseResources', task ':react-native-safe-area-context:parseReleaseLocalResources', task ':react-native-safe-area-context:generateReleaseRFile', task ':react-native-safe-area-context:compileReleaseKotlin', task ':react-native-safe-area-context:javaPreCompileRelease', task ':react-native-safe-area-context:compileReleaseJavaWithJavac', task ':react-native-safe-area-context:bundleLibRuntimeToDirRelease', task ':react-native-screens:checkKotlinGradlePluginConfigurationErrors', task ':react-native-screens:generateReleaseBuildConfig', task ':react-native-screens:generateReleaseResValues', task ':react-native-screens:generateReleaseResources', task ':react-native-screens:packageReleaseResources', task ':react-native-screens:parseReleaseLocalResources', task ':react-native-screens:generateReleaseRFile', task ':react-native-screens:compileReleaseKotlin', task ':react-native-screens:javaPreCompileRelease', task ':react-native-screens:compileReleaseJavaWithJavac', task ':react-native-screens:bundleLibRuntimeToDirRelease', task ':expo:checkKotlinGradlePluginConfigurationErrors', task ':expo:generateReleaseBuildConfig', task ':expo:generateReleaseResValues', task ':expo:generateReleaseResources', task ':expo:packageReleaseResources', task ':expo:parseReleaseLocalResources', task ':expo:generateReleaseRFile', task ':expo-constants:checkKotlinGradlePluginConfigurationErrors', task ':expo-constants:generateReleaseBuildConfig', task ':expo-constants:generateReleaseResValues', task ':expo-constants:generateReleaseResources', task ':expo-constants:packageReleaseResources', task ':expo-constants:parseReleaseLocalResources', task ':expo-constants:generateReleaseRFile', task ':expo-modules-core:checkKotlinGradlePluginConfigurationErrors', task ':expo-modules-core:generateReleaseBuildConfig', task ':expo-modules-core:generateReleaseResValues', task ':expo-modules-core:generateReleaseResources', task ':expo-modules-core:packageReleaseResources', task ':expo-modules-core:parseReleaseLocalResources', task ':expo-modules-core:generateReleaseRFile', task ':expo-modules-core:compileReleaseKotlin', task ':expo-modules-core:javaPreCompileRelease', task ':expo-modules-core:compileReleaseJavaWithJavac', task ':expo-modules-core:bundleLibCompileToJarRelease', task ':expo-constants:compileReleaseKotlin', task ':expo-constants:javaPreCompileRelease', task ':expo-constants:compileReleaseJavaWithJavac', task ':expo-constants:bundleLibCompileToJarRelease', task ':expo:compileReleaseKotlin', task ':expo:javaPreCompileRelease', task ':expo:compileReleaseJavaWithJavac', task ':expo:bundleLibRuntimeToDirRelease', task ':react-native-reanimated:bundleLibRuntimeToDirRelease', task ':react-native-worklets:bundleLibRuntimeToDirRelease', task ':expo-modules-core:bundleLibRuntimeToDirRelease', task ':expo-constants:bundleLibRuntimeToDirRelease', task ':app:checkReleaseDuplicateClasses', task ':app:buildKotlinToolingMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:generateReleaseBuildConfig', task ':expo:writeReleaseAarMetadata', task ':expo-constants:writeReleaseAarMetadata', task ':expo-modules-core:writeReleaseAarMetadata', task ':react-native-gesture-handler:writeReleaseAarMetadata', task ':react-native-reanimated:writeReleaseAarMetadata', task ':react-native-safe-area-context:writeReleaseAarMetadata', task ':react-native-screens:writeReleaseAarMetadata', task ':react-native-worklets:writeReleaseAarMetadata', task ':app:checkReleaseAarMetadata', task ':app:createBundleReleaseJsAndAssets', task ':app:generateReleaseResValues', task ':app:mapReleaseSourceSetPaths', task ':app:generateReleaseResources', task ':app:mergeReleaseResources', task ':app:packageReleaseResources', task ':app:parseReleaseLocalResources', task ':app:createReleaseCompatibleScreenManifests', task ':app:extractDeepLinksRelease', task ':expo:extractDeepLinksRelease', task ':expo:processReleaseManifest', task ':expo-constants:extractDeepLinksRelease', task ':expo-constants:processReleaseManifest', task ':expo-modules-core:extractDeepLinksRelease', task ':expo-modules-core:processReleaseManifest', task ':react-native-gesture-handler:extractDeepLinksRelease', task ':react-native-gesture-handler:processReleaseManifest', task ':react-native-reanimated:extractDeepLinksRelease', task ':react-native-reanimated:processReleaseManifest', task ':react-native-safe-area-context:extractDeepLinksRelease', task ':react-native-safe-area-context:processReleaseManifest', task ':react-native-screens:extractDeepLinksRelease', task ':react-native-screens:processReleaseManifest', task ':react-native-worklets:extractDeepLinksRelease', task ':react-native-worklets:processReleaseManifest', task ':app:processReleaseMainManifest', task ':app:processReleaseManifest', task ':app:processReleaseManifestForPackage', task ':expo:compileReleaseLibraryResources', task ':expo-constants:compileReleaseLibraryResources', task ':expo-modules-core:compileReleaseLibraryResources', task ':react-native-gesture-handler:compileReleaseLibraryResources', task ':react-native-reanimated:compileReleaseLibraryResources', task ':react-native-safe-area-context:compileReleaseLibraryResources', task ':react-native-screens:compileReleaseLibraryResources', task ':react-native-worklets:compileReleaseLibraryResources', task ':app:processReleaseResources', task ':expo:bundleLibCompileToJarRelease', task ':react-native-gesture-handler:bundleLibCompileToJarRelease', task ':react-native-safe-area-context:bundleLibCompileToJarRelease', task ':react-native-screens:bundleLibCompileToJarRelease', task ':app:compileReleaseKotlin', task ':app:javaPreCompileRelease', task ':app:compileReleaseJavaWithJavac', task ':app:dexBuilderRelease', task ':app:desugarReleaseFileDependencies', task ':app:mergeReleaseStartupProfile', task ':app:mergeExtDexRelease', task ':app:mergeDexRelease', task ':expo:prepareReleaseArtProfile', task ':expo-constants:prepareReleaseArtProfile', task ':expo-modules-core:prepareReleaseArtProfile', task ':react-native-gesture-handler:prepareReleaseArtProfile', task ':react-native-reanimated:prepareReleaseArtProfile', task ':react-native-safe-area-context:prepareReleaseArtProfile', task ':react-native-screens:prepareReleaseArtProfile', task ':react-native-worklets:prepareReleaseArtProfile', task ':app:mergeReleaseArtProfile', task ':react-native-gesture-handler:bundleLibRuntimeToJarRelease', task ':react-native-safe-area-context:bundleLibRuntimeToJarRelease', task ':react-native-screens:bundleLibRuntimeToJarRelease', task ':expo:bundleLibRuntimeToJarRelease', task ':react-native-reanimated:bundleLibRuntimeToJarRelease', task ':react-native-worklets:bundleLibRuntimeToJarRelease', task ':expo-modules-core:bundleLibRuntimeToJarRelease', task ':expo-constants:bundleLibRuntimeToJarRelease', task ':app:mergeReleaseGlobalSynthetics', task ':app:compileReleaseArtProfile', task ':app:mergeReleaseShaders', task ':app:compileReleaseShaders', task ':app:generateReleaseAssets', task ':expo:mergeReleaseShaders', task ':expo:compileReleaseShaders', task ':expo:generateReleaseAssets', task ':expo:mergeReleaseAssets', task ':expo-constants:mergeReleaseShaders', task ':expo-constants:compileReleaseShaders', task ':expo-constants:generateReleaseAssets', task ':expo-constants:mergeReleaseAssets', task ':expo-modules-core:mergeReleaseShaders', task ':expo-modules-core:compileReleaseShaders', task ':expo-modules-core:generateReleaseAssets', task ':expo-modules-core:mergeReleaseAssets', task ':react-native-gesture-handler:mergeReleaseShaders', task ':react-native-gesture-handler:compileReleaseShaders', task ':react-native-gesture-handler:generateReleaseAssets', task ':react-native-gesture-handler:mergeReleaseAssets', task ':react-native-reanimated:mergeReleaseShaders', task ':react-native-reanimated:compileReleaseShaders', task ':react-native-reanimated:generateReleaseAssets', task ':react-native-reanimated:mergeReleaseAssets', task ':react-native-safe-area-context:mergeReleaseShaders', task ':react-native-safe-area-context:compileReleaseShaders', task ':react-native-safe-area-context:generateReleaseAssets', task ':react-native-safe-area-context:mergeReleaseAssets', task ':react-native-screens:mergeReleaseShaders', task ':react-native-screens:compileReleaseShaders', task ':react-native-screens:generateReleaseAssets', task ':react-native-screens:mergeReleaseAssets', task ':react-native-worklets:mergeReleaseShaders', task ':react-native-worklets:compileReleaseShaders', task ':react-native-worklets:generateReleaseAssets', task ':react-native-worklets:mergeReleaseAssets', task ':app:mergeReleaseAssets', task ':app:compressReleaseAssets', task ':app:extractReleaseVersionControlInfo', task ':app:extractProguardFiles', task ':expo:processReleaseJavaRes', task ':expo:createFullJarRelease', task ':expo:extractProguardFiles', task ':expo-constants:processReleaseJavaRes', task ':expo-constants:createFullJarRelease', task ':expo-constants:extractProguardFiles', task ':expo-modules-core:processReleaseJavaRes', task ':expo-modules-core:createFullJarRelease', task ':expo-modules-core:extractProguardFiles', task ':expo-modules-core:generateReleaseLintModel', task ':expo-modules-core:prepareLintJarForPublish', task ':expo-constants:generateReleaseLintModel', task ':expo-constants:prepareLintJarForPublish', task ':expo:generateReleaseLintModel', task ':expo:prepareLintJarForPublish', task ':react-native-gesture-handler:processReleaseJavaRes', task ':react-native-gesture-handler:createFullJarRelease', task ':react-native-gesture-handler:extractProguardFiles', task ':react-native-reanimated:processReleaseJavaRes', task ':react-native-reanimated:createFullJarRelease', task ':react-native-reanimated:extractProguardFiles', task ':react-native-worklets:processReleaseJavaRes', task ':react-native-worklets:createFullJarRelease', task ':react-native-worklets:extractProguardFiles', task ':react-native-worklets:generateReleaseLintModel', task ':react-native-worklets:prepareLintJarForPublish', task ':react-native-reanimated:generateReleaseLintModel', task ':react-native-reanimated:prepareLintJarForPublish', task ':react-native-gesture-handler:generateReleaseLintModel', task ':react-native-gesture-handler:prepareLintJarForPublish', task ':react-native-safe-area-context:processReleaseJavaRes', task ':react-native-safe-area-context:createFullJarRelease', task ':react-native-safe-area-context:extractProguardFiles', task ':react-native-safe-area-context:generateReleaseLintModel', task ':react-native-safe-area-context:prepareLintJarForPublish', task ':react-native-screens:processReleaseJavaRes', task ':react-native-screens:createFullJarRelease', task ':react-native-screens:extractProguardFiles', task ':react-native-screens:generateReleaseLintModel', task ':react-native-screens:prepareLintJarForPublish', task ':app:generateReleaseLintVitalReportModel', task ':react-native-gesture-handler:stripReleaseDebugSymbols', task ':react-native-gesture-handler:copyReleaseJniLibsProjectAndLocalJars', task ':react-native-gesture-handler:extractDeepLinksForAarRelease', task ':react-native-gesture-handler:extractReleaseAnnotations', task ':react-native-gesture-handler:mergeReleaseGeneratedProguardFiles', task ':react-native-gesture-handler:mergeReleaseConsumerProguardFiles', task ':react-native-gesture-handler:mergeReleaseJavaResource', task ':react-native-gesture-handler:syncReleaseLibJars', task ':react-native-gesture-handler:bundleReleaseLocalLintAar', task ':react-native-safe-area-context:stripReleaseDebugSymbols', task ':react-native-safe-area-context:copyReleaseJniLibsProjectAndLocalJars', task ':react-native-safe-area-context:extractDeepLinksForAarRelease', task ':react-native-safe-area-context:extractReleaseAnnotations', task ':react-native-safe-area-context:mergeReleaseGeneratedProguardFiles', task ':react-native-safe-area-context:mergeReleaseConsumerProguardFiles', task ':react-native-safe-area-context:mergeReleaseJavaResource', task ':react-native-safe-area-context:syncReleaseLibJars', task ':react-native-safe-area-context:bundleReleaseLocalLintAar', task ':react-native-screens:stripReleaseDebugSymbols', task ':react-native-screens:copyReleaseJniLibsProjectAndLocalJars', task ':react-native-screens:extractDeepLinksForAarRelease', task ':react-native-screens:extractReleaseAnnotations', task ':react-native-screens:mergeReleaseGeneratedProguardFiles', task ':react-native-screens:mergeReleaseConsumerProguardFiles', task ':react-native-screens:mergeReleaseJavaResource', task ':react-native-screens:syncReleaseLibJars', task ':react-native-screens:bundleReleaseLocalLintAar', task ':expo:stripReleaseDebugSymbols', task ':expo:copyReleaseJniLibsProjectAndLocalJars', task ':expo:extractDeepLinksForAarRelease', task ':expo:extractReleaseAnnotations', task ':expo:mergeReleaseGeneratedProguardFiles', task ':expo:mergeReleaseConsumerProguardFiles', task ':expo:mergeReleaseJavaResource', task ':expo:syncReleaseLibJars', task ':expo:bundleReleaseLocalLintAar', task ':react-native-reanimated:stripReleaseDebugSymbols', task ':react-native-reanimated:copyReleaseJniLibsProjectAndLocalJars', task ':react-native-reanimated:extractDeepLinksForAarRelease', task ':react-native-reanimated:extractReleaseAnnotations', task ':react-native-reanimated:mergeReleaseGeneratedProguardFiles', task ':react-native-reanimated:mergeReleaseConsumerProguardFiles', task ':react-native-reanimated:mergeReleaseJavaResource', task ':react-native-reanimated:syncReleaseLibJars', task ':react-native-reanimated:bundleReleaseLocalLintAar', task ':react-native-worklets:stripReleaseDebugSymbols', task ':react-native-worklets:copyReleaseJniLibsProjectAndLocalJars', task ':react-native-worklets:extractDeepLinksForAarRelease', task ':react-native-worklets:extractReleaseAnnotations', task ':react-native-worklets:mergeReleaseGeneratedProguardFiles', task ':react-native-worklets:mergeReleaseConsumerProguardFiles', task ':react-native-worklets:mergeReleaseJavaResource', task ':react-native-worklets:syncReleaseLibJars', task ':react-native-worklets:bundleReleaseLocalLintAar', task ':expo-modules-core:stripReleaseDebugSymbols', task ':expo-modules-core:copyReleaseJniLibsProjectAndLocalJars', task ':expo-modules-core:extractDeepLinksForAarRelease', task ':expo-modules-core:extractReleaseAnnotations', task ':expo-modules-core:mergeReleaseGeneratedProguardFiles', task ':expo-modules-core:mergeReleaseConsumerProguardFiles', task ':expo-modules-core:mergeReleaseJavaResource', task ':expo-modules-core:syncReleaseLibJars', task ':expo-modules-core:bundleReleaseLocalLintAar', task ':expo-constants:stripReleaseDebugSymbols', task ':expo-constants:copyReleaseJniLibsProjectAndLocalJars', task ':expo-constants:extractDeepLinksForAarRelease', task ':expo-constants:extractReleaseAnnotations', task ':expo-constants:mergeReleaseGeneratedProguardFiles', task ':expo-constants:mergeReleaseConsumerProguardFiles', task ':expo-constants:mergeReleaseJavaResource', task ':expo-constants:syncReleaseLibJars', task ':expo-constants:bundleReleaseLocalLintAar', task ':expo-constants:writeReleaseLintModelMetadata', task ':expo-modules-core:writeReleaseLintModelMetadata', task ':expo:lintVitalAnalyzeRelease', task ':expo:writeReleaseLintModelMetadata', task ':expo-constants:lintVitalAnalyzeRelease', task ':expo-modules-core:lintVitalAnalyzeRelease', task ':react-native-reanimated:writeReleaseLintModelMetadata', task ':react-native-worklets:writeReleaseLintModelMetadata', task ':react-native-gesture-handler:lintVitalAnalyzeRelease', task ':react-native-gesture-handler:writeReleaseLintModelMetadata', task ':react-native-reanimated:lintVitalAnalyzeRelease', task ':react-native-safe-area-context:lintVitalAnalyzeRelease', task ':react-native-safe-area-context:writeReleaseLintModelMetadata', task ':react-native-screens:lintVitalAnalyzeRelease', task ':react-native-screens:writeReleaseLintModelMetadata', task ':react-native-worklets:lintVitalAnalyzeRelease', task ':app:lintVitalAnalyzeRelease', task ':expo:generateReleaseLintVitalModel', task ':expo-constants:generateReleaseLintVitalModel', task ':expo-modules-core:generateReleaseLintVitalModel', task ':react-native-gesture-handler:generateReleaseLintVitalModel', task ':react-native-reanimated:generateReleaseLintVitalModel', task ':react-native-safe-area-context:generateReleaseLintVitalModel', task ':react-native-screens:generateReleaseLintVitalModel', task ':react-native-worklets:generateReleaseLintVitalModel', task ':app:lintVitalReportRelease', task ':app:lintVitalRelease', task ':app:processReleaseJavaRes', task ':app:mergeReleaseJavaResource', task ':app:optimizeReleaseResources', task ':app:collectReleaseDependencies', task ':app:sdkReleaseDependencyData', task ':app:validateSigningRelease', task ':app:writeReleaseAppMetadata', task ':app:writeReleaseSigningConfigVersions', task ':app:packageRelease', task ':app:createReleaseApkListingFileRedirect', task ':app:assembleRelease', task ':expo:bundleReleaseAar', task ':expo:mapReleaseSourceSetPaths', task ':expo:mergeReleaseResources', task ':expo:verifyReleaseResources', task ':expo:assembleRelease', task ':expo-constants:bundleReleaseAar', task ':expo-constants:mapReleaseSourceSetPaths', task ':expo-constants:mergeReleaseResources', task ':expo-constants:verifyReleaseResources', task ':expo-constants:assembleRelease', task ':expo-modules-core:bundleReleaseAar', task ':expo-modules-core:mapReleaseSourceSetPaths', task ':expo-modules-core:mergeReleaseResources', task ':expo-modules-core:verifyReleaseResources', task ':expo-modules-core:assembleRelease', task ':react-native-gesture-handler:bundleReleaseAar', task ':react-native-gesture-handler:mapReleaseSourceSetPaths', task ':react-native-gesture-handler:mergeReleaseResources', task ':react-native-gesture-handler:verifyReleaseResources', task ':react-native-gesture-handler:assembleRelease', task ':react-native-reanimated:bundleReleaseAar', task ':react-native-reanimated:mapReleaseSourceSetPaths', task ':react-native-reanimated:mergeReleaseResources', task ':react-native-reanimated:verifyReleaseResources', task ':react-native-reanimated:assembleRelease', task ':react-native-safe-area-context:bundleReleaseAar', task ':react-native-safe-area-context:mapReleaseSourceSetPaths', task ':react-native-safe-area-context:mergeReleaseResources', task ':react-native-safe-area-context:verifyReleaseResources', task ':react-native-safe-area-context:assembleRelease', task ':react-native-screens:bundleReleaseAar', task ':react-native-screens:mapReleaseSourceSetPaths', task ':react-native-screens:mergeReleaseResources', task ':react-native-screens:verifyReleaseResources', task ':react-native-screens:assembleRelease', task ':react-native-worklets:bundleReleaseAar', task ':react-native-worklets:mapReleaseSourceSetPaths', task ':react-native-worklets:mergeReleaseResources', task ':react-native-worklets:verifyReleaseResources', task ':react-native-worklets:assembleRelease']
+Tasks that were excluded: []
+work action Parameters of ClassesDirToClassesTransform (Thread[#336,included builds Thread 2,5,main]) started.
+work action Parameters of DexingNoClasspathTransform (Thread[#336,included builds Thread 2,5,main]) started.
+work action Parameters of DexingOutputSplitTransform (Thread[#336,included builds Thread 2,5,main]) started.
+work action Parameters of IdentityTransform (Thread[#336,included builds Thread 2,5,main]) started.
+work action Parameters of DexingOutputSplitTransform (Thread[#336,included builds Thread 2,5,main]) started.
+work action Parameters of ExtractAarTransform (Thread[#336,included builds Thread 2,5,main]) started.
+work action Parameters of ExtractAarTransform (Thread[#336,included builds Thread 2,5,main]) started.
+work action Parameters of ExtractAarTransform (Thread[#338,Execution worker Thread 2,5,main]) started.
+work action Parameters of ExtractAarTransform (Thread[#338,Execution worker Thread 2,5,main]) started.
+work action Parameters of ExtractAarTransform (Thread[#338,Execution worker Thread 2,5,main]) started.
+Resolve mutations for :app:externalNativeBuildCleanDebug (Thread[#338,Execution worker Thread 2,5,main]) started.
+:app:externalNativeBuildCleanDebug (Thread[#338,Execution worker Thread 2,5,main]) started.
+
+> Task :app:externalNativeBuildCleanDebug
+Caching disabled for task ':app:externalNativeBuildCleanDebug' because:
+  Build cache is disabled
+Task ':app:externalNativeBuildCleanDebug' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+C/C++: starting clean
+C/C++: finding existing JSONs
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\Debug\5j8374q1\armeabi-v7a\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\Debug\5j8374q1\arm64-v8a\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\Debug\5j8374q1\x86\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\Debug\5j8374q1\x86_64\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\Debug\5j8374q1\riscv64\android_gradle_build.json
+C/C++: about to execute 0 clean command batches
+C/C++: clean complete
+Resolve mutations for :app:externalNativeBuildCleanDebugOptimized (Thread[#338,Execution worker Thread 2,5,main]) started.
+:app:externalNativeBuildCleanDebugOptimized (Thread[#341,Execution worker Thread 5,5,main]) started.
+
+> Task :app:externalNativeBuildCleanDebugOptimized
+Caching disabled for task ':app:externalNativeBuildCleanDebugOptimized' because:
+  Build cache is disabled
+Task ':app:externalNativeBuildCleanDebugOptimized' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+C/C++: starting clean
+C/C++: finding existing JSONs
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\Release\6l6q5f6e\armeabi-v7a\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\Release\6l6q5f6e\arm64-v8a\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\Release\6l6q5f6e\x86\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\Release\6l6q5f6e\x86_64\android_gradle_build.json
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\Release\6l6q5f6e\riscv64\android_gradle_build.json
+C/C++: about to execute 0 clean command batches
+C/C++: clean complete
+Resolve mutations for :app:externalNativeBuildCleanRelease (Thread[#341,Execution worker Thread 5,5,main]) started.
+:app:externalNativeBuildCleanRelease (Thread[#341,Execution worker Thread 5,5,main]) started.
+
+> Task :app:externalNativeBuildCleanRelease
+Caching disabled for task ':app:externalNativeBuildCleanRelease' because:
+  Build cache is disabled
+Task ':app:externalNativeBuildCleanRelease' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+C/C++: starting clean
+C/C++: finding existing JSONs
+C/C++: Json file not found so contents couldn't be cleaned C:\workspace\git\GlicoReminder\android\app\.cxx\RelWithDebInfo\4x4xf1n2\riscv64\android_gradle_build.json
+C/C++: about to execute 4 clean command batches
+Clean react_codegen_rnreanimated-armeabi-v7a, react_codegen_safeareacontext-armeabi-v7a, react_codegen_rngesturehandler_codegen-armeabi-v7a, react_codegen_rnscreens-armeabi-v7a, appmodules-armeabi-v7a, react_codegen_rnworklets-armeabi-v7a
+C/C++: @echo off
+"C:\\Users\\enascime\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  -C ^
+  "C:\\workspace\\git\\GlicoReminder\\android\\app\\.cxx\\RelWithDebInfo\\4x4xf1n2\\armeabi-v7a" ^
+  clean
+
+Starting process 'command 'C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe''. Working directory: C:\workspace\git\GlicoReminder\android\app Command: C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe -C C:\workspace\git\GlicoReminder\android\app\.cxx\RelWithDebInfo\4x4xf1n2\armeabi-v7a clean
+Successfully started process 'command 'C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe''
+C/C++: Received process result: 0
+Clean react_codegen_rnreanimated-arm64-v8a, react_codegen_safeareacontext-arm64-v8a, react_codegen_rngesturehandler_codegen-arm64-v8a, react_codegen_rnscreens-arm64-v8a, appmodules-arm64-v8a, react_codegen_rnworklets-arm64-v8a
+C/C++: @echo off
+"C:\\Users\\enascime\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  -C ^
+  "C:\\workspace\\git\\GlicoReminder\\android\\app\\.cxx\\RelWithDebInfo\\4x4xf1n2\\arm64-v8a" ^
+  clean
+
+Starting process 'command 'C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe''. Working directory: C:\workspace\git\GlicoReminder\android\app Command: C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe -C C:\workspace\git\GlicoReminder\android\app\.cxx\RelWithDebInfo\4x4xf1n2\arm64-v8a clean
+Successfully started process 'command 'C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe''
+C/C++: Received process result: 0
+Clean react_codegen_rnreanimated-x86, react_codegen_safeareacontext-x86, react_codegen_rngesturehandler_codegen-x86, react_codegen_rnscreens-x86, appmodules-x86, react_codegen_rnworklets-x86
+C/C++: @echo off
+"C:\\Users\\enascime\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  -C ^
+  "C:\\workspace\\git\\GlicoReminder\\android\\app\\.cxx\\RelWithDebInfo\\4x4xf1n2\\x86" ^
+  clean
+
+Starting process 'command 'C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe''. Working directory: C:\workspace\git\GlicoReminder\android\app Command: C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe -C C:\workspace\git\GlicoReminder\android\app\.cxx\RelWithDebInfo\4x4xf1n2\x86 clean
+Successfully started process 'command 'C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe''
+C/C++: Received process result: 0
+Clean react_codegen_rnreanimated-x86_64, react_codegen_safeareacontext-x86_64, react_codegen_rngesturehandler_codegen-x86_64, react_codegen_rnscreens-x86_64, appmodules-x86_64, react_codegen_rnworklets-x86_64
+C/C++: @echo off
+"C:\\Users\\enascime\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  -C ^
+  "C:\\workspace\\git\\GlicoReminder\\android\\app\\.cxx\\RelWithDebInfo\\4x4xf1n2\\x86_64" ^
+  clean
+
+Starting process 'command 'C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe''. Working directory: C:\workspace\git\GlicoReminder\android\app Command: C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe -C C:\workspace\git\GlicoReminder\android\app\.cxx\RelWithDebInfo\4x4xf1n2\x86_64 clean
+Successfully started process 'command 'C:\Users\enascime\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe''
+C/C++: Received process result: 0
+C/C++: clean complete
+Resolve mutations for :app:clean (Thread[#341,Execution worker Thread 5,5,main]) started.
+:app:clean (Thread[#341,Execution worker Thread 5,5,main]) started.
+
+> Task :app:clean
+Caching disabled for task ':app:clean' because:
+  Build cache is disabled
+Task ':app:clean' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+
+> Task :app:clean FAILED
+Build a561719e-374a-4d51-9547-5449aa146053 is closed
+Build 22f7aef0-b5c3-4534-b190-a69e643ab695 is closed
+Build 63c3c6ec-ac01-40d3-b9b7-633b8454fcd7 is closed
+Build dbdb3750-4a36-481f-829e-fe5b035934bf is closed
+
+[Incubating] Problems report is available at: file:///C:/workspace/git/GlicoReminder/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:clean'.
+> java.io.IOException: Unable to delete directory 'C:\workspace\git\GlicoReminder\android\app\build'
+    Failed to delete some children. This might happen because a process has files open or has its working directory set in the target directory.
+    - C:\workspace\git\GlicoReminder\android\app\build\intermediates\cxx\RelWithDebInfo\4x4xf1n2\logs\x86_64\build_stderr_targets.txt
+    - C:\workspace\git\GlicoReminder\android\app\build\intermediates\cxx\RelWithDebInfo\4x4xf1n2\logs\x86_64\build_stdout_targets.txt
+    - C:\workspace\git\GlicoReminder\android\app\build\intermediates\cxx\RelWithDebInfo\4x4xf1n2\logs\x86_64
+    - C:\workspace\git\GlicoReminder\android\app\build\intermediates\cxx\RelWithDebInfo\4x4xf1n2\logs
+    - C:\workspace\git\GlicoReminder\android\app\build\intermediates\cxx\RelWithDebInfo\4x4xf1n2
+    - C:\workspace\git\GlicoReminder\android\app\build\intermediates\cxx\RelWithDebInfo
+    - C:\workspace\git\GlicoReminder\android\app\build\intermediates\cxx
+    - C:\workspace\git\GlicoReminder\android\app\build\intermediates
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 1m 22s
+28 actionable tasks: 4 executed, 24 up-to-date
+Watched directory hierarchies: [C:\workspace\git\GlicoReminder\node_modules\expo-modules-core\expo-module-gradle-plugin, C:\workspace\git\GlicoReminder\node_modules\expo-modules-autolinking\android\expo-gradle-plugin, C:\workspace\git\GlicoReminder\node_modules\@react-native\gradle-plugin]
